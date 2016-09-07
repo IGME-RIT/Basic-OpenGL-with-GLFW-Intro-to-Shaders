@@ -1,0 +1,15 @@
+series: Basic OpenGL with GLFW
+title: World Matrices
+author:
+  name: David Erbelding
+  email: daviderbelding@gmail.com
+  github: https://github.com/Erbelding
+description: Render shapes in different positions using a World Matrix.
+language: C++
+tags:
+  - Math
+  - Graphics
+extra_resources:
+connections:
+  - series: Basic OpenGL with GLFW
+    title: Index Buffers
