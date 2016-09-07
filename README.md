@@ -1,11 +1,12 @@
-# Basic OpenGL with GLFW: Index Buffers
+# Basic OpenGL with GLFW: Intro to Shaders
 
 This program introduces basic concepts involved in writing an OpenGL program.
 
 # About
 
-Multiplying a position by a World Matrix transforms the position from 'local space' to 'world space'.
-This example builds structure on top of previous examples and abstracts some of rendering code.
+Shaders are the programs that run on you graphics card.
+Before this tutorial, everything was done with default shaders. Now, we'll go through the process of compiling and using a shader in an OpenGL program.
+This example builds on top of the World Matrix example, and abstracts the world matrix math into a transform2d class.
 
 # Setup
 
