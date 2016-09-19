@@ -247,13 +247,18 @@ int main(int argc, char **argv)
 	// Main Loop
 	while (!glfwWindowShouldClose(window))
 	{
+        // Calculate delta time.
+        float dt = glfwGetTime();
+        // Reset the timer.
+        glfwSetTime(0);
+
 		// Clear the screen.
 		glClear(GL_COLOR_BUFFER_BIT);
 		glClearColor(0.0, 0.0, 0.0, 0.0);
 
 
 		// rotate square
-		transform.Rotate(.0002f);
+		transform.Rotate(dt);
 
 		// Here we set which shader program to render with.
 		///Commenting this line out will revert to drawing with default shaders.
